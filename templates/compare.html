@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Official providers | $site_name</title>
+  <meta name="description" content="Compare the travel providers tracked by $site_name and see how many offers have verified source prices.">
+  $canonical
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Official providers | $site_name">
+  <meta property="og:description" content="Provider list with links to official booking and offers pages.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Official providers | $site_name">
+  <meta name="twitter:description" content="Provider list with links to official booking and offers pages.">
+  <link rel="stylesheet" href="/style.css">
+  $schema
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="/">$site_name</a><nav><a href="/">Offers</a><a href="/compare/">Providers</a></nav></header>
+  <main><section class="hero compact"><p class="eyebrow">Directory</p><h1>Official providers</h1><p>This page compares source coverage only. Different trips and currencies are not ranked against one another.</p></section><div class="table-wrap"><table><thead><tr><th scope="col">Provider</th><th scope="col">Verified offers</th><th scope="col">Booking</th></tr></thead><tbody>$rows</tbody></table></div></main>
+  <footer><p>Every offer links to its official source. Prices and terms can change.</p></footer>
+</body>
+</html>

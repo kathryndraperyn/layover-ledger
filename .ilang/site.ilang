@@ -1,0 +1,31 @@
+ILANG
+[TYPE:config][PROJECT:Layover Ledger][LANG:en]
+
+::STATE{@SITE,brand:Layover Ledger,niche:Travel booking and attraction offers,domain:,base_url:,locale:en-US}
+
+::MODULE{PROVIDERS|title:Approved first-party sources}
+  Southwest Airlines | https://www.southwest.com/ | https://www.southwest.com/special-offers/flight-deals/ |
+  United Airlines | https://www.united.com/ | https://www.united.com/en/us/deals/flights/fares-from-washington-dc-under-250 |
+  Priceline | https://www.priceline.com/ | https://offers.priceline.com/ |
+  Viator | https://www.viator.com/ | https://www.viator.com/en-GB/app |
+  Enterprise Rent-A-Car | https://www.enterprise.com/ | https://www.enterprise.com/en/car-rental/deals.html |
+
+::MODULE{FIELDS|title:Only fields supported by official structured offers}
+  title price currency offer_url valid_until availability description source_url fetched_at
+
+::RULE{source⇒fetch only the configured official URL after checking that host's robots.txt}
+::RULE{extract⇒accept explicit JSON-LD Offer data with a named product, numeric price, and currency only}
+::RULE{price missing or ambiguous⇒drop the offer; never infer a price from page prose}
+::RULE{offer URL outside the provider's own host⇒drop the offer}
+::RULE{valid_until in the past⇒do not publish the offer}
+::RULE{base_url empty⇒omit canonical links and emit an empty sitemap until the deployed URL is verified}
+::BOUNDARY{never:invent offers prices expiry dates availability or affiliate commissions|scope:permanent}
+::BOUNDARY{never:fetch disallowed paths bypass login CAPTCHA or anti-bot controls|scope:permanent}
+
+::MODULE{RENDER|title:Static page rules}
+  index.html⇒show verified offers and source scan time; state clearly when no offers qualify
+  provider.html⇒one page per configured provider; show verified offers or an honest empty state
+  deal.html⇒one page per deduplicated offer; show its source and observed validity only
+  compare.html⇒list providers and verified offer counts; never compare unlike prices
+  locale⇒en-US
+  update_frequency⇒every six hours by GitHub Actions; publish only changed verified source data

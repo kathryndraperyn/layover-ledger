@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>$site_name | Official Travel Offers</title>
+  <meta name="description" content="Browse travel offers collected from official airline, booking, attraction, and car-rental pages. Prices appear only when a source publishes structured price data.">
+  $canonical
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="$site_name | Official Travel Offers">
+  <meta property="og:description" content="Travel offers with source links and published prices.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="$site_name | Official Travel Offers">
+  <meta name="twitter:description" content="Travel offers with source links and published prices.">
+  <link rel="stylesheet" href="/style.css">
+  $schema
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="/">$site_name</a><nav><a href="/">Offers</a><a href="/compare/">Providers</a></nav></header>
+  <main>
+    <section class="hero"><p class="eyebrow">$niche</p><h1>Travel deals, traced to the source.</h1><p>We list only offers with a published price and link back to the provider’s official page. No guessed coupons, stale prices, or affiliate redirects.</p><div class="stats"><span><strong>$offer_count</strong> verified offers</span><span><strong>$provider_count</strong> official sources</span></div></section>
+    <section class="section-heading"><div><p class="eyebrow">Latest source scan</p><h2>Offers with source evidence</h2></div><p class="muted">$scan_time</p></section>
+    <section class="offer-grid">$cards</section>
+  </main>
+  <footer><p>Prices and terms can change. Confirm details with the linked provider before booking.</p><p>Offer facts are linked to provider sources; the site’s source and rendering rules are maintained in the project repository.</p></footer>
+</body>
+</html>
