@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import html
 import json
+import os
 import re
 import shutil
 import sys
@@ -92,11 +93,12 @@ def render() -> dict:
         raise ValueError("Set domain when base_url is a custom domain")
 
     OUTPUT.mkdir(parents=True, exist_ok=True)
-    for old in OUTPUT.iterdir():
-        if old.is_dir():
-            shutil.rmtree(old)
-        else:
-            old.unlink()
+    if not os.environ.get("BUILD_NO_CLEAN"):
+        for old in OUTPUT.iterdir():
+            if old.is_dir():
+                shutil.rmtree(old)
+            else:
+                old.unlink()
     shutil.copyfile(TEMPLATES / "style.css", OUTPUT / "style.css")
 
     provider_paths = {}

@@ -16,7 +16,7 @@
 ::RULE{schema⇒include only observed fields; omit unavailable priceValidUntil or availability}
 ::RULE{evidence⇒keep the printed price text and its page URL in data/offers.json for every published offer}
 ::RULE{local changes⇒run python scraper.py then python build.py and confirm a non-zero offer count before committing}
-::RULE{release⇒use a public GitHub repository and Cloudflare Pages only after actual account connection is available}
+::RULE{release⇒push to the public GitHub repository, then publish site/ with npx wrangler pages deploy; a hand-written multipart upload creates a deployment with no files and pages.dev answers 500}
 ::RULE{configuration edit⇒rebuild and confirm provider pages reflect the changed .ilang/site.ilang list}
 
 ::MODULE{ALLOWED|title:Safe project actions}

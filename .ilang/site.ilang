@@ -1,7 +1,7 @@
 ILANG
 [TYPE:config][PROJECT:Layover Ledger][LANG:en]
 
-::STATE{@SITE,brand:Layover Ledger,niche:Travel booking and attraction offers,domain:,base_url:,locale:en-US}
+::STATE{@SITE,brand:Layover Ledger,niche:Travel booking and attraction offers,domain:,base_url:https://layover-ledger.pages.dev,locale:en-US}
 
 ::MODULE{PROVIDERS|title:Approved first-party sources}
   Southwest Airlines | https://www.southwest.com/ | https://www.southwest.com/special-offers/flight-deals/ |

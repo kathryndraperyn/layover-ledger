@@ -48,3 +48,9 @@ jobs:
             git commit -m "Refresh official travel offer observations"
             git push
           fi
+      - name: Publish the built site to Cloudflare Pages
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CI: "true"
+        run: npx --yes wrangler@3 pages deploy site --project-name=layover-ledger --branch=master --commit-dirty=true
