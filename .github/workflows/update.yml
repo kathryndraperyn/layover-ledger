@@ -34,7 +34,7 @@ jobs:
       - name: Scrape prices printed on official offer pages
         run: python scraper.py
       - name: Fail when no priced offer was read
-        run: python -c "import json,sys; d=json.load(open('data/offers.json',encoding='utf-8')); n=len(d.get('offers',[])); print('priced offers:', n); sys.exit(0 if n > 0 else 1)"
+        run: python -c "import json,sys; d=json.load(open('data/offers.json',encoding='utf-8')); n=len(d.get('offers',[])); print('priced offers', n); sys.exit(0 if n > 0 else 1)"
       - name: Build static pages
         run: python build.py
       - name: Commit observed source refresh
