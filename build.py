@@ -139,6 +139,8 @@ def render() -> dict:
             "currency": esc(offer["currency"]), "url": esc(offer["offer_url"]),
             "source_url": esc(offer["source_url"]), "description": esc(offer.get("description", "")),
             "validity": esc(current_status(offer)), "availability": esc(offer.get("availability", "")),
+            "evidence": (f'<p class="evidence">Price as printed on the source page: <code>{esc(offer["evidence"])}</code></p>'
+                         if offer.get("evidence") else ""),
             "canonical": canonical, "schema": schema_script,
         })
         write(OUTPUT / path, content)

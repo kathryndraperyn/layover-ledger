@@ -5,17 +5,16 @@ ILANG
 
 ::MODULE{PROVIDERS|title:Approved first-party sources}
   Southwest Airlines | https://www.southwest.com/ | https://www.southwest.com/special-offers/flight-deals/ |
-  United Airlines | https://www.united.com/ | https://www.united.com/en/us/deals/flights/fares-from-washington-dc-under-250 |
-  Priceline | https://www.priceline.com/ | https://offers.priceline.com/ |
-  Viator | https://www.viator.com/ | https://www.viator.com/en-GB/app |
-  Enterprise Rent-A-Car | https://www.enterprise.com/ | https://www.enterprise.com/en/car-rental/deals.html |
+  American Airlines | https://www.aa.com/ | https://www.aa.com/en-us/round-trip-deals |
+  Carnival Cruise Line | https://www.carnival.com/ | https://www.carnival.com/cruise-deals |
 
-::MODULE{FIELDS|title:Only fields supported by official structured offers}
-  title price currency offer_url valid_until availability description source_url fetched_at
+::MODULE{FIELDS|title:Fields kept for each published offer}
+  title price currency offer_url source_url fetched_at price_source evidence valid_until availability description
 
-::RULE{source⇒fetch only the configured official URL after checking that host's robots.txt}
-::RULE{extract⇒accept explicit JSON-LD Offer data with a named product, numeric price, and currency only}
-::RULE{price missing or ambiguous⇒drop the offer; never infer a price from page prose}
+::RULE{source⇒fetch the configured official offer page, then same-host deal pages found from it or from its sitemap}
+::RULE{extract⇒accept a price only when the source page itself prints it, in JSON-LD Offer data or in a visible price element inside one offer card}
+::RULE{evidence⇒store the price text seen on the page and the page URL; the pair is published next to the price}
+::RULE{price missing or ambiguous⇒drop the offer; never infer a price from page prose, discount claims, financing text or navigation}
 ::RULE{offer URL outside the provider's own host⇒drop the offer}
 ::RULE{valid_until in the past⇒do not publish the offer}
 ::RULE{base_url empty⇒omit canonical links and emit an empty sitemap until the deployed URL is verified}
@@ -25,7 +24,7 @@ ILANG
 ::MODULE{RENDER|title:Static page rules}
   index.html⇒show verified offers and source scan time; state clearly when no offers qualify
   provider.html⇒one page per configured provider; show verified offers or an honest empty state
-  deal.html⇒one page per deduplicated offer; show its source and observed validity only
+  deal.html⇒one page per deduplicated offer; show its source, the price text seen there and observed validity only
   compare.html⇒list providers and verified offer counts; never compare unlike prices
   locale⇒en-US
   update_frequency⇒every six hours by GitHub Actions; publish only changed verified source data

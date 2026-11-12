@@ -16,7 +16,7 @@ jobs:
   refresh:
     if: github.repository_visibility == 'public'
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -24,8 +24,17 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Scrape permitted official structured offers
+      - name: Confirm a browser is available for rendered offer pages
+        run: |
+          if command -v google-chrome >/dev/null 2>&1; then
+            google-chrome --version
+          else
+            sudo apt-get update && sudo apt-get install -y google-chrome-stable
+          fi
+      - name: Scrape prices printed on official offer pages
         run: python scraper.py
+      - name: Fail when no priced offer was read
+        run: python -c "import json,sys; d=json.load(open('data/offers.json',encoding='utf-8')); n=len(d.get('offers',[])); print('priced offers:', n); sys.exit(0 if n > 0 else 1)"
       - name: Build static pages
         run: python build.py
       - name: Commit observed source refresh
