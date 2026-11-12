@@ -1,19 +1,30 @@
 # Layover Ledger
 
-An English (US) static directory for first-party flight, travel booking, attraction, and car-rental offers. The initial provider list comes from the owner: Southwest Airlines, United Airlines, Priceline, Viator, and Enterprise Rent-A-Car.
+An English (US) static directory of travel offers that are still on sale at the airline or cruise line that sells them. Current sources: Southwest Airlines, American Airlines, Carnival Cruise Line.
+
+## What gets published
+
+A price is published only when the provider's own page prints it. The scraper opens the configured official offer page in headless Chrome, lets the page's scripts run, and reads the price from either JSON-LD `Offer` data or the visible price element inside one offer card. Every published offer keeps the exact price text that was on the page plus the page URL, and the offer page shows that text next to the price.
+
+Nothing is estimated. Discount claims ("up to $100 onboard credit"), financing text ("or from $36/mo"), navigation prices and prose are rejected. If a price cannot be read, the offer is dropped and the provider page shows an honest empty state. A scheduled run that reads zero priced offers fails instead of publishing an empty site.
+
+`robots.txt` is fetched and respected for every URL before it is requested, including deal pages discovered from the configured page or from the provider's own sitemap.
 
 ## Data and update behavior
 
-The scraper checks each configured official offers page only after retrieving and respecting that host's `robots.txt`. It accepts only named, machine-readable JSON-LD `Offer` records with a numeric price, a three-letter currency, and an offer URL on the provider's own host. It does not parse promotional prose, estimate prices, use a language model at runtime, call a paid API, or add affiliate parameters. Sources that do not publish qualifying structured data produce no offer cards.
-
-GitHub Actions schedules a deterministic refresh every six hours. The workflow needs a public GitHub repository for standard hosted runner usage to remain free under GitHub's published policy. Cloudflare Pages Git integration can build the repository with `python build.py` and output directory `site`; the current Pages Free plan documents a monthly build cap, so watch the actual account limits. This repository contains no API keys or runtime server.
+`data/offers.json` is the only observation store; no offer is written by hand. GitHub Actions refreshes it every six hours, rebuilds `site/`, and commits only when an observation changed. The workflow needs a public repository for hosted runners to stay on the free tier, and it uses no paid API, no secret and no runtime server.
 
 ## Local build
 
-Run `python scraper.py` to collect from permitted public sources, then `python build.py` to render `site/`. Python's standard library is sufficient.
+```
+python scraper.py   # reads the configured official pages, needs Chrome or Edge installed
+python build.py     # renders site/
+```
 
-## Release and monetization
+Set `CHROME_BIN` if the browser is not in a standard location. Only the Python standard library is used.
 
-The custom domain and verified Pages URL are not configured yet. Canonical URLs and sitemap locations remain omitted until the real production URL is recorded in `.ilang/site.ilang`. No affiliate relationship is active; add affiliate links only after approval and review of that program's public terms. The repository makes no revenue or traffic promise.
+## Release status
 
-Site rules are described in the I-Lang protocol; see `.ilang/site.ilang`. Protocol overview: [ilang.ai](https://ilang.ai).
+The custom domain and the production Pages URL are not configured yet, so canonical links and sitemap entries are omitted until the real URL is recorded in `.ilang/site.ilang`. No affiliate relationship is active; affiliate parameters are added only after a program is approved and its public terms are reviewed. The repository makes no revenue or traffic promise.
+
+Site rules live in `.ilang/site.ilang` (I-Lang). Protocol overview: [ilang.ai](https://ilang.ai).
