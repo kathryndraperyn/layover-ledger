@@ -1,10 +1,10 @@
 {
-  "last_checked_at": "2026-11-23T23:53:06Z",
+  "last_checked_at": "2026-11-24T09:53:18Z",
   "providers": [
     {
       "name": "Southwest Airlines",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "checked_at": "2026-11-23T23:53:06Z",
+      "checked_at": "2026-11-24T09:53:18Z",
       "offers_found": 15,
       "read_mode": "rendered with headless Chrome",
       "status": "checked; 15 priced offers read from 1 page(s)"
@@ -12,7 +12,7 @@
     {
       "name": "American Airlines",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "checked_at": "2026-11-23T23:53:06Z",
+      "checked_at": "2026-11-24T09:53:18Z",
       "offers_found": 24,
       "read_mode": "rendered with headless Chrome",
       "status": "checked; 24 priced offers read from 1 page(s)"
@@ -20,7 +20,7 @@
     {
       "name": "Carnival Cruise Line",
       "source_url": "https://www.carnival.com/cruise-deals",
-      "checked_at": "2026-11-23T23:53:06Z",
+      "checked_at": "2026-11-24T09:53:18Z",
       "offers_found": 8,
       "read_mode": "rendered with headless Chrome",
       "status": "checked; 8 priced offers read from 1 page(s)"
@@ -29,38 +29,38 @@
   "offers": [
     {
       "provider": "American Airlines",
+      "title": "Charlotte CLT to Fort Lauderdale FLL 12/08/26 - 12/15/26",
+      "price": "157",
+      "currency": "USD",
+      "offer_url": "https://www.aa.com/en-us/round-trip-deals",
+      "source_url": "https://www.aa.com/en-us/round-trip-deals",
+      "fetched_at": "2026-11-24T09:53:18Z",
+      "price_source": "rendered-dom",
+      "evidence": "$157 * Fare subject to changes",
+      "description": "Round trip Economy"
+    },
+    {
+      "provider": "American Airlines",
       "title": "Chicago ORD to Cancun CUN 01/23/27 - 01/27/27",
       "price": "463",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$463 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Chicago ORD to Fort Lauderdale FLL 12/15/26 - 12/22/26",
-      "price": "160",
+      "title": "Chicago ORD to Orlando MCO 02/03/27 - 02/12/27",
+      "price": "320",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
-      "evidence": "$160 * Fare subject to changes",
-      "description": "Round trip Economy"
-    },
-    {
-      "provider": "American Airlines",
-      "title": "Chicago ORD to Orlando MCO 01/16/27 - 01/20/27",
-      "price": "341",
-      "currency": "USD",
-      "offer_url": "https://www.aa.com/en-us/round-trip-deals",
-      "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
-      "price_source": "rendered-dom",
-      "evidence": "$341 * Fare subject to changes",
+      "evidence": "$320 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
@@ -70,54 +70,32 @@
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$321 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Dallas (DFW) Amarillo (AMA) Round trip Economy 01/21/27 - 01/23/27",
-      "price": "187",
-      "currency": "USD",
-      "offer_url": "https://www.aa.com/en-us/round-trip-deals",
-      "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
-      "price_source": "rendered-dom",
-      "evidence": "$187 * Fare subject to changes"
-    },
-    {
-      "provider": "American Airlines",
-      "title": "Dallas (DFW) Los Angeles (LAX) Round trip Economy 01/28/27 - 01/30/27",
+      "title": "Dallas (DFW) Los Angeles (LAX) Round trip Economy 01/21/27 - 01/26/27",
       "price": "267",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$267 * Fare subject to changes"
     },
     {
       "provider": "American Airlines",
-      "title": "Dallas (DFW) Miami (MIA) Round trip Economy 11/29/26 - 12/05/26",
-      "price": "287",
+      "title": "Dallas (DFW) Miami (MIA) Round trip Economy 12/09/26 - 12/13/26",
+      "price": "267",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
-      "evidence": "$287 * Fare subject to changes"
-    },
-    {
-      "provider": "American Airlines",
-      "title": "Dallas (DFW) New York (LGA) Round trip Economy 01/19/27 - 01/21/27",
-      "price": "252",
-      "currency": "USD",
-      "offer_url": "https://www.aa.com/en-us/round-trip-deals",
-      "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
-      "price_source": "rendered-dom",
-      "evidence": "$252 * Fare subject to changes"
+      "evidence": "$267 * Fare subject to changes"
     },
     {
       "provider": "American Airlines",
@@ -126,7 +104,7 @@
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$1,493 * Fare subject to changes",
       "description": "Round trip Economy"
@@ -138,19 +116,19 @@
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$529 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Dallas DFW to Fort Lauderdale FLL 12/15/26 - 12/22/26",
+      "title": "Dallas DFW to Fort Lauderdale FLL 01/26/27 - 02/02/27",
       "price": "157",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$157 * Fare subject to changes",
       "description": "Round trip Economy"
@@ -162,31 +140,19 @@
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$249 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Dallas DFW to Sao Paulo GRU 02/15/27 - 02/22/27",
-      "price": "1,200",
-      "currency": "USD",
-      "offer_url": "https://www.aa.com/en-us/round-trip-deals",
-      "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
-      "price_source": "rendered-dom",
-      "evidence": "$1,200 * Fare subject to changes",
-      "description": "Round trip Economy"
-    },
-    {
-      "provider": "American Airlines",
-      "title": "Dallas DFW to Sydney SYD 02/01/27 - 02/08/27",
+      "title": "Dallas DFW to Sydney SYD 02/22/27 - 03/01/27",
       "price": "1,673",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$1,673 * Fare subject to changes",
       "description": "Round trip Economy"
@@ -198,10 +164,21 @@
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$297 * Fare subject to changes",
       "description": "Round trip Economy"
+    },
+    {
+      "provider": "American Airlines",
+      "title": "Los Angeles (LAX) Miami (MIA) Round trip Economy 01/20/27 - 01/26/27",
+      "price": "297",
+      "currency": "USD",
+      "offer_url": "https://www.aa.com/en-us/round-trip-deals",
+      "source_url": "https://www.aa.com/en-us/round-trip-deals",
+      "fetched_at": "2026-11-24T09:53:18Z",
+      "price_source": "rendered-dom",
+      "evidence": "$297 * Fare subject to changes"
     },
     {
       "provider": "American Airlines",
@@ -210,7 +187,7 @@
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$763 * Fare subject to changes",
       "description": "Round trip Economy"
@@ -222,21 +199,21 @@
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$1,001 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Los Angeles LAX to Sydney SYD 02/10/27 - 02/17/27",
-      "price": "1,005",
+      "title": "Los Angeles LAX to Sydney SYD 12/09/26 - 01/20/27",
+      "price": "1,004",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
-      "evidence": "$1,005 * Fare subject to changes",
+      "evidence": "$1,004 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
@@ -246,55 +223,78 @@
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$1,155 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Miami MIA to Sao Paulo GRU 01/21/27 - 01/28/27",
+      "title": "Miami MIA to Sao Paulo GRU 01/18/27 - 01/25/27",
       "price": "778",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$778 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Philadelphia PHL to Cancun CUN 02/07/27 - 02/10/27",
-      "price": "462",
+      "title": "New York JFK to Sao Paulo GRU 02/22/27 - 03/01/27",
+      "price": "796",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
-      "evidence": "$462 * Fare subject to changes",
+      "evidence": "$796 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Philadelphia PHL to Fort Lauderdale FLL 02/06/27 - 02/13/27",
+      "title": "Philadelphia (PHL) Miami (MIA) Round trip Economy 02/13/27 - 02/20/27",
+      "price": "245",
+      "currency": "USD",
+      "offer_url": "https://www.aa.com/en-us/round-trip-deals",
+      "source_url": "https://www.aa.com/en-us/round-trip-deals",
+      "fetched_at": "2026-11-24T09:53:18Z",
+      "price_source": "rendered-dom",
+      "evidence": "$245 * Fare subject to changes"
+    },
+    {
+      "provider": "American Airlines",
+      "title": "Philadelphia PHL to Cancun CUN 02/22/27 - 02/26/27",
+      "price": "348",
+      "currency": "USD",
+      "offer_url": "https://www.aa.com/en-us/round-trip-deals",
+      "source_url": "https://www.aa.com/en-us/round-trip-deals",
+      "fetched_at": "2026-11-24T09:53:18Z",
+      "price_source": "rendered-dom",
+      "evidence": "$348 * Fare subject to changes",
+      "description": "Round trip Economy"
+    },
+    {
+      "provider": "American Airlines",
+      "title": "Philadelphia PHL to Fort Lauderdale FLL 02/02/27 - 02/09/27",
       "price": "241",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$241 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Philadelphia PHL to Orlando MCO 01/12/27 - 01/19/27",
+      "title": "Philadelphia PHL to Orlando MCO 01/26/27 - 02/02/27",
       "price": "203",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$203 * Fare subject to changes",
       "description": "Round trip Economy"
@@ -306,7 +306,7 @@
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$203 * Fare subject to changes",
       "description": "Round trip Economy"
@@ -318,7 +318,7 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_onboardcreditsale_111726_deals&rateCodes=OTR&cruisedeals=onboardcreditsale&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
       "source_url": "https://www.carnival.com/cruise-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$178 *"
     },
@@ -329,7 +329,7 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_tournament_110722_deals&rateCodes=PZC&cruisedeals=pzc&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
       "source_url": "https://www.carnival.com/cruise-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$1,093 *"
     },
@@ -340,7 +340,7 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_GH3_111726_deals&rateCodes=GH3&cruisedeals=GH3&numadults=3&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
       "source_url": "https://www.carnival.com/cruise-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$202 *"
     },
@@ -351,7 +351,7 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_balconysale_111726_deals&rateCodes=PBG&cruisedeals=balconysale&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
       "source_url": "https://www.carnival.com/cruise-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$283 *"
     },
@@ -362,7 +362,7 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_onboardcreditsale_111726_deals&rateCodes=OTR&cruisedeals=onboardcreditsale&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
       "source_url": "https://www.carnival.com/cruise-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$178 *"
     },
@@ -373,7 +373,7 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_tournament_110722_deals&rateCodes=PZC&cruisedeals=pzc&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
       "source_url": "https://www.carnival.com/cruise-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$1,093 *"
     },
@@ -384,7 +384,7 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_GH3_111726_deals&rateCodes=GH3&cruisedeals=GH3&numadults=3&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
       "source_url": "https://www.carnival.com/cruise-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$202 *"
     },
@@ -395,7 +395,7 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_balconysale_111726_deals&rateCodes=PBG&cruisedeals=balconysale&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
       "source_url": "https://www.carnival.com/cruise-deals",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "$283 *"
     },
@@ -406,7 +406,7 @@
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "one-way starting at $69"
     },
@@ -417,7 +417,7 @@
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "one-way starting at $209"
     },
@@ -428,7 +428,7 @@
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "one-way starting at $159"
     },
@@ -439,7 +439,7 @@
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "one-way starting at $99"
     },
@@ -450,18 +450,18 @@
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "one-way starting at $149"
     },
     {
       "provider": "Southwest Airlines",
-      "title": "Fort Lauderdale, FL, departing 12/07",
+      "title": "Fort Lauderdale, FL, departing 12/08",
       "price": "89",
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "one-way starting at $89"
     },
@@ -472,7 +472,7 @@
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "one-way starting at $159"
     },
@@ -483,7 +483,7 @@
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "one-way starting at $129"
     },
@@ -494,7 +494,7 @@
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "one-way starting at $124"
     },
@@ -505,7 +505,7 @@
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "one-way starting at $119"
     },
@@ -516,7 +516,7 @@
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "one-way starting at $119"
     },
@@ -527,7 +527,7 @@
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "one-way starting at $79"
     },
@@ -538,7 +538,7 @@
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "one-way starting at $97"
     },
@@ -549,7 +549,7 @@
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "one-way starting at $129"
     },
@@ -560,7 +560,7 @@
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-23T23:53:06Z",
+      "fetched_at": "2026-11-24T09:53:18Z",
       "price_source": "rendered-dom",
       "evidence": "one-way starting at $138"
     }
