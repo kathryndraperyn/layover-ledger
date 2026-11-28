@@ -1,10 +1,10 @@
 {
-  "last_checked_at": "2026-11-27T21:16:17Z",
+  "last_checked_at": "2026-11-28T07:48:15Z",
   "providers": [
     {
       "name": "Southwest Airlines",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "checked_at": "2026-11-27T21:16:17Z",
+      "checked_at": "2026-11-28T07:48:15Z",
       "offers_found": 15,
       "read_mode": "rendered with headless Chrome",
       "status": "checked; 15 priced offers read from 1 page(s)"
@@ -12,7 +12,7 @@
     {
       "name": "American Airlines",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "checked_at": "2026-11-27T21:16:17Z",
+      "checked_at": "2026-11-28T07:48:15Z",
       "offers_found": 24,
       "read_mode": "rendered with headless Chrome",
       "status": "checked; 24 priced offers read from 1 page(s)"
@@ -20,7 +20,7 @@
     {
       "name": "Carnival Cruise Line",
       "source_url": "https://www.carnival.com/cruise-deals",
-      "checked_at": "2026-11-27T21:16:17Z",
+      "checked_at": "2026-11-28T07:48:15Z",
       "offers_found": 21,
       "read_mode": "rendered with headless Chrome",
       "status": "checked; 21 priced offers read from 3 page(s)"
@@ -34,19 +34,19 @@
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$458 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Chicago ORD to Fort Lauderdale FLL 12/31/26 - 01/07/27",
+      "title": "Chicago ORD to Fort Lauderdale FLL 12/14/26 - 12/21/26",
       "price": "163",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$163 * Fare subject to changes",
       "description": "Round trip Economy"
@@ -58,88 +58,88 @@
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$317 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Chicago ORD to Tampa TPA 12/30/26 - 01/06/27",
+      "title": "Chicago ORD to Tampa TPA 02/03/27 - 02/10/27",
       "price": "321",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$321 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Dallas (DFW) Los Angeles (LAX) Round trip Economy 01/09/27 - 01/27/27",
+      "title": "Dallas (DFW) Las Vegas (LAS) Round trip Economy 01/17/27 - 01/20/27",
+      "price": "277",
+      "currency": "USD",
+      "offer_url": "https://www.aa.com/en-us/round-trip-deals",
+      "source_url": "https://www.aa.com/en-us/round-trip-deals",
+      "fetched_at": "2026-11-28T07:48:15Z",
+      "price_source": "rendered-dom",
+      "evidence": "$277 * Fare subject to changes"
+    },
+    {
+      "provider": "American Airlines",
+      "title": "Dallas (DFW) Los Angeles (LAX) Round trip Economy 01/23/27 - 01/26/27",
       "price": "237",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$237 * Fare subject to changes"
     },
     {
       "provider": "American Airlines",
-      "title": "Dallas (DFW) Miami (MIA) Round trip Economy 01/22/27 - 01/27/27",
-      "price": "257",
+      "title": "Dallas (DFW) New York (LGA) Round trip Economy 01/13/27 - 01/20/27",
+      "price": "237",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
-      "evidence": "$257 * Fare subject to changes"
+      "evidence": "$237 * Fare subject to changes"
     },
     {
       "provider": "American Airlines",
-      "title": "Dallas (DFW) New York (LGA) Round trip Economy 01/28/27 - 02/02/27",
-      "price": "252",
-      "currency": "USD",
-      "offer_url": "https://www.aa.com/en-us/round-trip-deals",
-      "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
-      "price_source": "rendered-dom",
-      "evidence": "$252 * Fare subject to changes"
-    },
-    {
-      "provider": "American Airlines",
-      "title": "Dallas DFW to Auckland AKL 12/02/26 - 12/09/26",
+      "title": "Dallas DFW to Auckland AKL 01/18/27 - 01/25/27",
       "price": "894",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$894 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Dallas DFW to Cancun CUN 02/02/27 - 02/09/27",
+      "title": "Dallas DFW to Cancun CUN 02/09/27 - 02/16/27",
       "price": "504",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$504 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Dallas DFW to Fort Lauderdale FLL 01/27/27 - 02/03/27",
+      "title": "Dallas DFW to Fort Lauderdale FLL 02/06/27 - 02/13/27",
       "price": "157",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$157 * Fare subject to changes",
       "description": "Round trip Economy"
@@ -151,43 +151,66 @@
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$283 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Dallas DFW to Sydney SYD 02/01/27 - 02/08/27",
+      "title": "Dallas DFW to Sao Paulo GRU 02/15/27 - 02/22/27",
+      "price": "1,200",
+      "currency": "USD",
+      "offer_url": "https://www.aa.com/en-us/round-trip-deals",
+      "source_url": "https://www.aa.com/en-us/round-trip-deals",
+      "fetched_at": "2026-11-28T07:48:15Z",
+      "price_source": "rendered-dom",
+      "evidence": "$1,200 * Fare subject to changes",
+      "description": "Round trip Economy"
+    },
+    {
+      "provider": "American Airlines",
+      "title": "Dallas DFW to Sydney SYD 02/23/27 - 03/02/27",
       "price": "1,296",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$1,296 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Dallas DFW to Tampa TPA 01/12/27 - 01/19/27",
+      "title": "Dallas DFW to Tampa TPA 02/02/27 - 02/09/27",
       "price": "297",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$297 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Los Angeles LAX to Auckland AKL 02/02/27 - 02/09/27",
+      "title": "Los Angeles (LAX) Miami (MIA) Round trip Economy 12/12/26 - 12/15/26",
+      "price": "297",
+      "currency": "USD",
+      "offer_url": "https://www.aa.com/en-us/round-trip-deals",
+      "source_url": "https://www.aa.com/en-us/round-trip-deals",
+      "fetched_at": "2026-11-28T07:48:15Z",
+      "price_source": "rendered-dom",
+      "evidence": "$297 * Fare subject to changes"
+    },
+    {
+      "provider": "American Airlines",
+      "title": "Los Angeles LAX to Auckland AKL 02/09/27 - 02/16/27",
       "price": "744",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$744 * Fare subject to changes",
       "description": "Round trip Economy"
@@ -199,69 +222,46 @@
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$999 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Los Angeles LAX to Sydney SYD 02/02/27 - 02/09/27",
+      "title": "Los Angeles LAX to Sydney SYD 01/20/27 - 01/27/27",
       "price": "1,004",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$1,004 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Miami MIA to Rio de Janeiro GIG 01/13/27 - 01/20/27",
+      "title": "Miami MIA to Rio de Janeiro GIG 01/18/27 - 01/25/27",
       "price": "1,157",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$1,157 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Miami MIA to Sao Paulo GRU 01/21/27 - 01/28/27",
+      "title": "Miami MIA to Sao Paulo GRU 01/18/27 - 01/25/27",
       "price": "778",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$778 * Fare subject to changes",
       "description": "Round trip Economy"
-    },
-    {
-      "provider": "American Airlines",
-      "title": "New York JFK to Rio de Janeiro GIG 02/22/27 - 03/01/27",
-      "price": "603",
-      "currency": "USD",
-      "offer_url": "https://www.aa.com/en-us/round-trip-deals",
-      "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
-      "price_source": "rendered-dom",
-      "evidence": "$603 * Fare subject to changes",
-      "description": "Round trip Economy"
-    },
-    {
-      "provider": "American Airlines",
-      "title": "Philadelphia (PHL) Orlando (MCO) Round trip Economy 01/06/27 - 01/12/27",
-      "price": "277",
-      "currency": "USD",
-      "offer_url": "https://www.aa.com/en-us/round-trip-deals",
-      "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
-      "price_source": "rendered-dom",
-      "evidence": "$277 * Fare subject to changes"
     },
     {
       "provider": "American Airlines",
@@ -270,43 +270,43 @@
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$439 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Philadelphia PHL to Fort Lauderdale FLL 12/16/26 - 12/23/26",
+      "title": "Philadelphia PHL to Fort Lauderdale FLL 01/13/27 - 01/20/27",
       "price": "241",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$241 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Philadelphia PHL to Orlando MCO 01/27/27 - 02/03/27",
-      "price": "277",
+      "title": "Philadelphia PHL to Orlando MCO 02/03/27 - 02/08/27",
+      "price": "243",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
-      "evidence": "$277 * Fare subject to changes",
+      "evidence": "$243 * Fare subject to changes",
       "description": "Round trip Economy"
     },
     {
       "provider": "American Airlines",
-      "title": "Philadelphia PHL to Tampa TPA 01/06/27 - 01/13/27",
+      "title": "Philadelphia PHL to Tampa TPA 01/16/27 - 01/23/27",
       "price": "203",
       "currency": "USD",
       "offer_url": "https://www.aa.com/en-us/round-trip-deals",
       "source_url": "https://www.aa.com/en-us/round-trip-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$203 * Fare subject to changes",
       "description": "Round trip Economy"
@@ -318,31 +318,31 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_tournament_110722_deals&rateCodes=PZC&cruisedeals=pzc&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
       "source_url": "https://www.carnival.com/cruise-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$1,093 *"
     },
     {
       "provider": "Carnival Cruise Line",
       "title": "Flash Into Fun Black Friday Sale",
-      "price": "193",
+      "price": "188",
       "currency": "USD",
       "offer_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_limitedtimeoffer_112726_deals&rateCodes=P2P&cruisedeals=limitedtimeoffer&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
       "source_url": "https://www.carnival.com/cruise-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
-      "evidence": "$193 *"
+      "evidence": "$188 *"
     },
     {
       "provider": "Carnival Cruise Line",
       "title": "Great Rates & Greater Escapes Black Friday Sale Great Rates & Greater Escapes Black Friday Sale Room upgrade",
-      "price": "197",
+      "price": "189",
       "currency": "USD",
       "offer_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_onboardcreditsale_112726_deals&rateCodes=HA8&cruisedeals=onboardcreditsale&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
       "source_url": "https://www.carnival.com/cruise-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
-      "evidence": "$197 *"
+      "evidence": "$189 *"
     },
     {
       "provider": "Carnival Cruise Line",
@@ -351,7 +351,7 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/itinerary/3-day-the-bahamas-cruise/miami/conquest/3-days/baw?itinportcode=MIA&sailDate=09102027&numGuests=2&military=N&senior=N&pastGuest=N&ratecode=PEH&evsel=&hideSailingEvents=true&locality=1&currency=USD&roomType=IS",
       "source_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_earlysaversale_112726_deals&rateCodes=PEH&cruisedeals=earlysaversale&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$ 250 *"
     },
@@ -362,20 +362,20 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/itinerary/3-day-the-bahamas-cruise/miami/conquest/3-days/bav?itinportcode=MIA&sailDate=09152028&numGuests=2&military=N&senior=N&pastGuest=N&ratecode=PEH&evsel=&hideSailingEvents=true&locality=1&currency=USD&roomType=IS",
       "source_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_earlysaversale_112726_deals&rateCodes=PEH&cruisedeals=earlysaversale&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$ 251 *"
     },
     {
       "provider": "Carnival Cruise Line",
       "title": "Itinerary for this sail 4-Day Baja Mexico, Carnival Firenze from Long Beach (Los Angeles), CA",
-      "price": "193",
+      "price": "198",
       "currency": "USD",
-      "offer_url": "https://www.carnival.com/itinerary/4-day-baja-mexico-cruise/long-beach-los-angeles/firenze/4-days/lxq?itinportcode=LAX&sailDate=12072026&numGuests=2&military=N&senior=N&pastGuest=N&ratecode=P2P&evsel=&hideSailingEvents=true&locality=1&currency=USD&roomType=IS",
+      "offer_url": "https://www.carnival.com/itinerary/4-day-baja-mexico-cruise/long-beach-los-angeles/firenze/4-days/lxq?itinportcode=LAX&sailDate=12142026&numGuests=2&military=N&senior=N&pastGuest=N&ratecode=P2P&evsel=&hideSailingEvents=true&locality=1&currency=USD&roomType=IS",
       "source_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_limitedtimeoffer_112726_deals&rateCodes=P2P&cruisedeals=limitedtimeoffer&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
-      "evidence": "$ 193 *"
+      "evidence": "$ 198 *"
     },
     {
       "provider": "Carnival Cruise Line",
@@ -384,7 +384,7 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/itinerary/4-day-baja-mexico-cruise/long-beach-los-angeles/radiance/4-days/ls2?itinportcode=LAX&sailDate=01312027&numGuests=2&military=N&senior=N&pastGuest=N&ratecode=P2P&evsel=&hideSailingEvents=true&locality=1&currency=USD&roomType=IS",
       "source_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_limitedtimeoffer_112726_deals&rateCodes=P2P&cruisedeals=limitedtimeoffer&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$ 230 *"
     },
@@ -395,7 +395,7 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/itinerary/4-day-eastern-caribbean-cruise/miami/conquest/4-days/ec2?itinportcode=MIA&sailDate=09042028&numGuests=2&military=N&senior=N&pastGuest=N&ratecode=PEH&evsel=&hideSailingEvents=true&locality=1&currency=USD&roomType=IS",
       "source_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_earlysaversale_112726_deals&rateCodes=PEH&cruisedeals=earlysaversale&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$ 183 *"
     },
@@ -406,7 +406,7 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/itinerary/4-day-the-bahamas-cruise/miami/conquest/4-days/bhr?itinportcode=MIA&sailDate=01252027&numGuests=2&military=N&senior=N&pastGuest=N&ratecode=P2P&evsel=&hideSailingEvents=true&locality=1&currency=USD&roomType=IS",
       "source_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_limitedtimeoffer_112726_deals&rateCodes=P2P&cruisedeals=limitedtimeoffer&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$ 212 *"
     },
@@ -417,7 +417,7 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/itinerary/4-day-the-bahamas-cruise/miami/conquest/4-days/bhp?itinportcode=MIA&sailDate=03012027&numGuests=2&military=N&senior=N&pastGuest=N&ratecode=P2P&evsel=&hideSailingEvents=true&locality=1&currency=USD&roomType=IS",
       "source_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_limitedtimeoffer_112726_deals&rateCodes=P2P&cruisedeals=limitedtimeoffer&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$ 227 *"
     },
@@ -428,7 +428,7 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/itinerary/4-day-the-bahamas-cruise/miami/conquest/4-days/bhs?itinportcode=MIA&sailDate=03082027&numGuests=2&military=N&senior=N&pastGuest=N&ratecode=PEH&evsel=&hideSailingEvents=true&locality=1&currency=USD&roomType=IS",
       "source_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_earlysaversale_112726_deals&rateCodes=PEH&cruisedeals=earlysaversale&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$ 205 *"
     },
@@ -439,7 +439,7 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/itinerary/4-day-the-bahamas-cruise/miami/conquest/4-days/bhr?itinportcode=MIA&sailDate=02152027&numGuests=2&military=N&senior=N&pastGuest=N&ratecode=PEH&evsel=&hideSailingEvents=true&locality=1&currency=USD&roomType=IS",
       "source_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_earlysaversale_112726_deals&rateCodes=PEH&cruisedeals=earlysaversale&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$ 210 *"
     },
@@ -450,9 +450,20 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/itinerary/4-day-the-bahamas-cruise/miami/conquest/4-days/bhp?itinportcode=MIA&sailDate=09112028&numGuests=2&military=N&senior=N&pastGuest=N&ratecode=PEH&evsel=&hideSailingEvents=true&locality=1&currency=USD&roomType=IS",
       "source_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_earlysaversale_112726_deals&rateCodes=PEH&cruisedeals=earlysaversale&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$ 228 *"
+    },
+    {
+      "provider": "Carnival Cruise Line",
+      "title": "Itinerary for this sail 4-Day The Bahamas, Carnival Glory from Port Canaveral (Orlando), FL",
+      "price": "188",
+      "currency": "USD",
+      "offer_url": "https://www.carnival.com/itinerary/4-day-the-bahamas-cruise/pt-canaveral/glory/4-days/bm7?itinportcode=PCV&sailDate=11302026&numGuests=2&military=N&senior=N&pastGuest=N&ratecode=P2P&evsel=&hideSailingEvents=true&locality=1&currency=USD&roomType=IS",
+      "source_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_limitedtimeoffer_112726_deals&rateCodes=P2P&cruisedeals=limitedtimeoffer&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
+      "fetched_at": "2026-11-28T07:48:15Z",
+      "price_source": "rendered-dom",
+      "evidence": "$ 188 *"
     },
     {
       "provider": "Carnival Cruise Line",
@@ -461,20 +472,20 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/itinerary/4-day-the-bahamas-cruise/pt-canaveral/glory/4-days/bmh?itinportcode=PCV&sailDate=02082027&numGuests=2&military=N&senior=N&pastGuest=N&ratecode=P2P&evsel=&hideSailingEvents=true&locality=1&currency=USD&roomType=IS",
       "source_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_limitedtimeoffer_112726_deals&rateCodes=P2P&cruisedeals=limitedtimeoffer&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$ 231 *"
     },
     {
       "provider": "Carnival Cruise Line",
       "title": "Itinerary for this sail 4-Day The Bahamas, Carnival Sunrise from Miami, FL",
-      "price": "234",
+      "price": "230",
       "currency": "USD",
-      "offer_url": "https://www.carnival.com/itinerary/4-day-the-bahamas-cruise/miami/sunrise/4-days/bhp?itinportcode=MIA&sailDate=11282027&numGuests=2&military=N&senior=N&pastGuest=N&ratecode=PEH&evsel=&hideSailingEvents=true&locality=1&currency=USD&roomType=IS",
+      "offer_url": "https://www.carnival.com/itinerary/4-day-the-bahamas-cruise/miami/sunrise/4-days/bhp?itinportcode=MIA&sailDate=02252027&numGuests=2&military=N&senior=N&pastGuest=N&ratecode=PEH&evsel=&hideSailingEvents=true&locality=1&currency=USD&roomType=IS",
       "source_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_earlysaversale_112726_deals&rateCodes=PEH&cruisedeals=earlysaversale&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
-      "evidence": "$ 234 *"
+      "evidence": "$ 230 *"
     },
     {
       "provider": "Carnival Cruise Line",
@@ -483,7 +494,7 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/itinerary/4-day-western-caribbean-cruise/miami/conquest/4-days/wcd?itinportcode=MIA&sailDate=11152027&numGuests=2&military=N&senior=N&pastGuest=N&ratecode=PEH&evsel=&hideSailingEvents=true&locality=1&currency=USD&roomType=IS",
       "source_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_earlysaversale_112726_deals&rateCodes=PEH&cruisedeals=earlysaversale&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$ 233 *"
     },
@@ -494,7 +505,7 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/itinerary/5-day-the-bahamas-cruise/jacksonville/elation/5-days/bs0?itinportcode=JAX&sailDate=01092027&numGuests=2&military=N&senior=N&pastGuest=N&ratecode=P2P&evsel=&hideSailingEvents=true&locality=1&currency=USD&roomType=IS",
       "source_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_limitedtimeoffer_112726_deals&rateCodes=P2P&cruisedeals=limitedtimeoffer&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$ 214 *"
     },
@@ -505,20 +516,9 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/itinerary/5-day-the-bahamas-cruise/jacksonville/elation/5-days/bs1?itinportcode=JAX&sailDate=01182027&numGuests=2&military=N&senior=N&pastGuest=N&ratecode=P2P&evsel=&hideSailingEvents=true&locality=1&currency=USD&roomType=IS",
       "source_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_limitedtimeoffer_112726_deals&rateCodes=P2P&cruisedeals=limitedtimeoffer&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$ 224 *"
-    },
-    {
-      "provider": "Carnival Cruise Line",
-      "title": "Itinerary for this sail 5-Day The Bahamas, Carnival Sunrise from Miami, FL",
-      "price": "235",
-      "currency": "USD",
-      "offer_url": "https://www.carnival.com/itinerary/5-day-the-bahamas-cruise/miami/sunrise/5-days/bhi?itinportcode=MIA&sailDate=02012027&numGuests=2&military=N&senior=N&pastGuest=N&ratecode=P2P&evsel=&hideSailingEvents=true&locality=1&currency=USD&roomType=IS",
-      "source_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_limitedtimeoffer_112726_deals&rateCodes=P2P&cruisedeals=limitedtimeoffer&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
-      "fetched_at": "2026-11-27T21:16:17Z",
-      "price_source": "rendered-dom",
-      "evidence": "$ 235 *"
     },
     {
       "provider": "Carnival Cruise Line",
@@ -527,185 +527,185 @@
       "currency": "USD",
       "offer_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_tournament_110722_deals&rateCodes=PZC&cruisedeals=pzc&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
       "source_url": "https://www.carnival.com/cruise-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
       "evidence": "$1,093 *"
     },
     {
       "provider": "Carnival Cruise Line",
       "title": "Select Flash Into Fun Black Friday Sale for comparison",
-      "price": "193",
+      "price": "188",
       "currency": "USD",
       "offer_url": "https://www.carnival.com/cruise-search?icid=icp_ccl_limitedtimeoffer_112726_deals&rateCodes=P2P&cruisedeals=limitedtimeoffer&sort=fromprice&showBest=true&pagenumber=1&pagesize=8",
       "source_url": "https://www.carnival.com/cruise-deals",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
-      "evidence": "$193 *"
+      "evidence": "$188 *"
     },
     {
       "provider": "Southwest Airlines",
       "title": "Burbank, CA, departing 1/06",
-      "price": "194",
+      "price": "99",
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
-      "evidence": "one-way starting at $194"
+      "evidence": "one-way starting at $99"
     },
     {
       "provider": "Southwest Airlines",
-      "title": "Dallas (Love Field), TX, departing 1/27",
-      "price": "212",
+      "title": "Chicago (Midway), IL, departing 2/23",
+      "price": "162",
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
-      "evidence": "one-way starting at $212"
+      "evidence": "one-way starting at $162"
+    },
+    {
+      "provider": "Southwest Airlines",
+      "title": "Dallas (Love Field), TX, departing 1/06",
+      "price": "148",
+      "currency": "USD",
+      "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
+      "source_url": "https://www.southwest.com/special-offers/flight-deals/",
+      "fetched_at": "2026-11-28T07:48:15Z",
+      "price_source": "rendered-dom",
+      "evidence": "one-way starting at $148"
     },
     {
       "provider": "Southwest Airlines",
       "title": "Denver, CO, departing 1/06",
-      "price": "139",
+      "price": "99",
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
-      "evidence": "one-way starting at $139"
+      "evidence": "one-way starting at $99"
     },
     {
       "provider": "Southwest Airlines",
-      "title": "Houston (Hobby), TX, departing 1/29",
-      "price": "180",
+      "title": "Kansas City, MO, departing 1/06",
+      "price": "155",
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
-      "evidence": "one-way starting at $180"
+      "evidence": "one-way starting at $155"
     },
     {
       "provider": "Southwest Airlines",
-      "title": "Kahului (Maui), HI, departing 4/12",
-      "price": "265",
+      "title": "Las Vegas, NV, departing 12/20",
+      "price": "64",
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
-      "evidence": "one-way starting at $265"
+      "evidence": "one-way starting at $64"
     },
     {
       "provider": "Southwest Airlines",
-      "title": "Las Vegas, NV, departing 1/07",
-      "price": "135",
+      "title": "Los Angeles, CA, departing 1/06",
+      "price": "89",
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
-      "evidence": "one-way starting at $135"
+      "evidence": "one-way starting at $89"
     },
     {
       "provider": "Southwest Airlines",
-      "title": "Long Beach, CA, departing 1/17",
-      "price": "144",
+      "title": "Nashville, TN, departing 1/06",
+      "price": "207",
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
-      "evidence": "one-way starting at $144"
+      "evidence": "one-way starting at $207"
     },
     {
       "provider": "Southwest Airlines",
       "title": "Oakland, CA, departing 1/06",
-      "price": "114",
+      "price": "89",
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
-      "evidence": "one-way starting at $114"
+      "evidence": "one-way starting at $89"
     },
     {
       "provider": "Southwest Airlines",
-      "title": "Ontario/LA, CA, departing 1/06",
-      "price": "180",
+      "title": "Omaha, NE, departing 1/06",
+      "price": "179",
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
-      "evidence": "one-way starting at $180"
+      "evidence": "one-way starting at $179"
     },
     {
       "provider": "Southwest Airlines",
-      "title": "Orange County/Santa Ana, CA, departing 1/20",
-      "price": "195",
+      "title": "Orange County/Santa Ana, CA, departing 1/06",
+      "price": "134",
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
-      "evidence": "one-way starting at $195"
-    },
-    {
-      "provider": "Southwest Airlines",
-      "title": "Palm Springs, CA, departing 2/06",
-      "price": "190",
-      "currency": "USD",
-      "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-27T21:16:17Z",
-      "price_source": "rendered-dom",
-      "evidence": "one-way starting at $190"
-    },
-    {
-      "provider": "Southwest Airlines",
-      "title": "Phoenix, AZ, departing 1/07",
-      "price": "144",
-      "currency": "USD",
-      "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-27T21:16:17Z",
-      "price_source": "rendered-dom",
-      "evidence": "one-way starting at $144"
+      "evidence": "one-way starting at $134"
     },
     {
       "provider": "Southwest Airlines",
       "title": "Sacramento, CA, departing 1/06",
-      "price": "149",
+      "price": "169",
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
-      "evidence": "one-way starting at $149"
+      "evidence": "one-way starting at $169"
+    },
+    {
+      "provider": "Southwest Airlines",
+      "title": "Salt Lake City, UT, departing 1/06",
+      "price": "79",
+      "currency": "USD",
+      "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
+      "source_url": "https://www.southwest.com/special-offers/flight-deals/",
+      "fetched_at": "2026-11-28T07:48:15Z",
+      "price_source": "rendered-dom",
+      "evidence": "one-way starting at $79"
     },
     {
       "provider": "Southwest Airlines",
       "title": "San Diego, CA, departing 1/06",
-      "price": "104",
+      "price": "79",
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
-      "evidence": "one-way starting at $104"
+      "evidence": "one-way starting at $79"
     },
     {
       "provider": "Southwest Airlines",
-      "title": "San Jose, CA, departing 1/18",
-      "price": "129",
+      "title": "St. Louis, MO, departing 1/06",
+      "price": "189",
       "currency": "USD",
       "offer_url": "https://www.southwest.com/special-offers/flight-deals/",
       "source_url": "https://www.southwest.com/special-offers/flight-deals/",
-      "fetched_at": "2026-11-27T21:16:17Z",
+      "fetched_at": "2026-11-28T07:48:15Z",
       "price_source": "rendered-dom",
-      "evidence": "one-way starting at $129"
+      "evidence": "one-way starting at $189"
     }
   ]
 }
